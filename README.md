@@ -45,33 +45,33 @@ https://github.com/user-attachments/assets/f79d4de2-7380-4360-a960-b54e18d32bcc
 ---
 
 ## 模組說明 (Modules)
-   ## 船隻偵測與船型分類模組
-      - 使用 YOLOv8n 進行多船即時目標偵測
-      - 使用 InceptionV3 進行船型分類
-      - 支援多船同時出現之影像場景
-      - 輸出船隻類別與對應 Bounding Box
+## 船隻偵測與船型分類模組
+   - 使用 YOLOv8n 進行多船即時目標偵測
+   - 使用 InceptionV3 進行船型分類
+   - 支援多船同時出現之影像場景
+   - 輸出船隻類別與對應 Bounding Box
    
-   ## 船舷號辨識模組
-      - 使用 YOLOv8n 偵測船舷號位置
-      - 將 ROI 送入 PaddleOCR 進行文字解析
-      - 目前支援英文與數字，後續可擴充中文辨識
+## 船舷號辨識模組
+   - 使用 YOLOv8n 偵測船舷號位置
+   - 將 ROI 送入 PaddleOCR 進行文字解析
+   - 目前支援英文與數字，後續可擴充中文辨識
 
 ## 模型訓練與部署 (Training & Deployment)
-   ## 船型分類模型
-      - 使用多類船舶影像訓練 InceptionV3
-      - 輸出模型格式：best.pt / best.onnx
+## 船型分類模型
+   - 使用多類船舶影像訓練 InceptionV3
+   - 輸出模型格式：best.pt / best.onnx
    
-   ## 船舷號偵測模型
-      - 使用 YOLOv8n 訓練船舷號定位模型
-   
-   ## OCR 模組
-      - PaddleOCR + 自建英數字資料集
+## 船舷號偵測模型
+   - 使用 YOLOv8n 訓練船舷號定位模型
+
+## OCR 模組
+   - PaddleOCR + 自建英數字資料集
 
 ## 系統輸出 (Output)
-   ## 每一幀影像即時輸出
-      - 船型分類結果
-      - 船隻與船舷號偵測框
-      - OCR 辨識文字結果
+## 每一幀影像即時輸出
+   - 船型分類結果
+   - 船隻與船舷號偵測框
+   - OCR 辨識文字結果
 
 ---
 
