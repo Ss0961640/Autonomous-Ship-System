@@ -12,10 +12,14 @@
 
 
 
-https://github.com/user-attachments/assets/f79d4de2-7380-4360-a960-b54e18d32bcc
 
 
 
+https://github.com/user-attachments/assets/2c0ac491-b5fc-42cd-a276-3e1608890718
+
+
+
+---
 
 ## 專案簡介 (Overview)
 整合船型分類、船舷號目標偵測與 OCR 文字辨識，
@@ -42,7 +46,9 @@ https://github.com/user-attachments/assets/f79d4de2-7380-4360-a960-b54e18d32bcc
 - 擷取船舷號 ROI 送入 PaddleOCR 進行文字辨識
 - 將船型、船舷位置與 OCR 結果即時疊加顯示於畫面中
 
+
 ---
+
 
 ## 模組說明 (Modules)
 ## 船隻偵測與船型分類模組
@@ -73,7 +79,9 @@ https://github.com/user-attachments/assets/f79d4de2-7380-4360-a960-b54e18d32bcc
    - 船隻與船舷號偵測框
    - OCR 辨識文字結果
 
+
 ---
+
 
 ## 未來發展方向 (Future Work)
 - 多船追蹤（Multi-Object Tracking, MOT）
