@@ -5,6 +5,8 @@
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)
 ![PaddleOCR](https://img.shields.io/badge/OCR-PaddleOCR-orange)
 ![ONNX](https://img.shields.io/badge/ONNX-Supported-brightgreen)
+
+
 以深度學習模型整合 YOLOv8n、InceptionV3 與 PaddleOCR，
 本專案建構基於電腦視覺的船舶辨識與追蹤系統，提升船舶監測與自動航行決策能力。
 
